@@ -1042,6 +1042,7 @@ def check_safe_with_caveat(report, is_acs=None):
             is_acs = report[0] < report[1]
         return check_safe_with_caveat(report[1:], is_acs)
 
+
 reports = parse_data(data)
 count = 0
 for r in reports:
